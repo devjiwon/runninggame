@@ -1,0 +1,17 @@
+c:\users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\bin\Debug\dbconntection.exe.config
+c:\users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\bin\Debug\dbconntection.exe
+c:\users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\bin\Debug\dbconntection.pdb
+c:\users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\obj\Debug\dbconntection.csprojResolveAssemblyReference.cache
+c:\users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\obj\Debug\dbconntection.Form1.resources
+c:\users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\obj\Debug\dbconntection.Form2.resources
+c:\users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\obj\Debug\dbconntection.Properties.Resources.resources
+c:\users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\obj\Debug\dbconntection.csproj.GenerateResource.Cache
+c:\users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\obj\Debug\dbconntection.exe
+c:\users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\obj\Debug\dbconntection.pdb
+c:\users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\obj\Debug\dbconntection.Form3.resources
+c:\users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\bin\Debug\MySql.Data.dll
+c:\users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\bin\Debug\Google.Protobuf.dll
+c:\users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\bin\Debug\BouncyCastle.Crypto.dll
+c:\users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\bin\Debug\MySql.Data.xml
+C:\Users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\obj\Debug\dbconntection.DB2.resources
+C:\Users\wldnj\onedrive\documents\visual studio 2017\Projects\dbconntection\dbconntection\obj\Debug\dbconntection.dataInsert.resources
