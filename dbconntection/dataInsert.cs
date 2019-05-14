@@ -23,6 +23,9 @@ namespace dbconntection
         private MySqlConnection mConnection; // DB접속
         private MySqlCommand mCommand; // 쿼리문
         private MySqlDataReader mDataReader; // 실행문
+        
+        public string gradeStr;
+        public int score = 47;
 
         //private MySqlDataAdapter mySqlDataAdapter;
 
@@ -61,7 +64,37 @@ namespace dbconntection
                 mCommand = new MySqlCommand(); // 쿼리문 생성
                 mCommand.Connection = mConnection; // DB에 연결
 
-                mCommand.CommandText = "INSERT INTO ranking (name, score, grade) VALUES ('" + textBox1.Text + "', 1204,'12')"; // 쿼리문 작성
+                if (score < 100)
+                {
+                    gradeStr = "F";
+                }
+                else if (score >= 100 && score < 200)
+                {
+                    gradeStr = "C";
+                }
+                else if (score >= 200 && score < 300)
+                {
+                    gradeStr = "C+";
+                }
+                else if (score >= 300 && score < 400)
+                {
+                    gradeStr = "B";
+                }
+                else if (score >= 400 && score < 500)
+                {
+                    gradeStr = "B+";
+                }
+                else if (score >= 500 && score < 600)
+                {
+                    gradeStr = "A";
+                }
+                else
+                {
+                    gradeStr = "A+";
+                }
+
+
+                mCommand.CommandText = "INSERT INTO ranking (name, score, grade) VALUES ('" + textBox1.Text + "', " + score + ",'"+gradeStr+"')"; // 쿼리문 작성
 
                 //mCommand.CommandText = "INSERT INTO ranking VALUES ("+ count+", '" + textBox1.Text + "', 12,'12')"; // 쿼리문 작성
                 mConnection.Open(); // DB 오픈

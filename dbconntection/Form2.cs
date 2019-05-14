@@ -55,6 +55,8 @@ namespace dbconntection
             mConnection.Open(); // DB 오픈
             mDataReader = mCommand.ExecuteReader(); // 쿼리문 실행
 
+           
+
             
             mySqlDataAdapter = new MySqlDataAdapter("select name AS 이름, score as 점수, grade as 학점 from ranking order by score desc limit 10", mConnection);
             DataSet DS = new DataSet();
